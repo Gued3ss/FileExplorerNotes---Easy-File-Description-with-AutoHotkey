@@ -46,7 +46,7 @@ Follow these steps to get **FileExplorerNotes** running on your system:
 - **`Ctrl + Shift + D`**: Open/Create the note for the selected file in Notepad.
 - **`F7` (Hold)**: Preview the note content.
 - **`F7` (Release)**: Hide the preview.
-
+(You can customize the shortcuts)
 ---
 
 ## ⚖️ License
