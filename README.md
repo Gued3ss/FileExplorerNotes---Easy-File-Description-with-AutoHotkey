@@ -12,7 +12,7 @@ I tried to solve this in many ways:
 - **Manual Lists:** I tried keeping a master list of files inside **Obsidian**, but it was inefficient and hard to maintain as files moved or changed.
 - **Paid Tools:** I looked into tools like **TagSpaces**, but found them over-engineered for such a simple need, often hiding basic features behind expensive paywalls.
 
-![Folder filenote](https://imgur.com/4mquqJR.png)
+![Folder filenote](https://imgur.com/DH2p5II.png)
 
 I wanted something that followed the **KISS Principle (Keep It Simple, Stupid)**. I just wanted a note associated with a file that I could read instantly. Since I couldn't find it, I built it.
 
