@@ -12,11 +12,16 @@ I tried to solve this in many ways:
 - **Manual Lists:** I tried keeping a master list of files inside **Obsidian**, but it was inefficient and hard to maintain as files moved or changed.
 - **Paid Tools:** I looked into tools like **TagSpaces**, but found them over-engineered for such a simple need, often hiding basic features behind expensive paywalls.
 
+![Folder filenote](https://imgur.com/4mquqJR.png)
+
 I wanted something that followed the **KISS Principle (Keep It Simple, Stupid)**. I just wanted a note associated with a file that I could read instantly. Since I couldn't find it, I built it.
 
 The code has comments explaining what is happening, and at the end of it there are shortcut customization options, in case you have never dealt with the AHK syntax.
 
 ## 🖥️ Independent Native GUI (No Notepad required)
+
+![editor preview](https://imgur.com/eHdS4W9.png)
+
 In version 2.0, I moved away from relying on the Windows Notepad. The modern Windows 11 Notepad has become a "session-based" application with tabs and auto-restore features that often caused conflicts and opened the wrong notes. 
 
 To solve this, I built a **custom, native GUI** directly into the script. This ensures:
@@ -36,6 +41,8 @@ I chose **AutoHotkey (AHK)** for this project for a few key reasons:
 - **Quick Preview:** Hold `Ctrl + Q` to see the note in a tooltip without opening the file (chosen for better ergonomics).
 - **Sidecar System:** Notes are stored in a hidden `.filenotes` folder within each directory. If you move the folder, the context goes with it.
 - **Zero Clutter:** Your filenames remain untouched. No messy prefixes or suffixes.
+
+![File Description Notes](https://imgur.com/T286PT5.png)
 
 ## 🛠️ Installation & Setup
 
