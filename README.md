@@ -73,3 +73,25 @@ Follow these steps to get **FileExplorerNotes** running on your system:
 This project is licensed under the **MIT License** - meaning it's free for everyone, forever. 
 
 *Stop guessing. Start committing context to your files.*
+
+---
+
+## 🚀 v3.0 Enhancements (community fork by mario-dedalus)
+
+### Centralized Notes Storage
+Notes are no longer scattered across every folder. All notes are stored in a single hidden `.filenotes` folder next to the script, encoded by full file path. This makes backup, sync, and management trivial.
+
+### Auto-Preview
+The script now automatically shows a tooltip when you focus a file that has a note — no hotkey needed. The tooltip dismisses itself after a configurable duration (default: 3 seconds).
+
+### Styled Tooltips
+Replaced the plain native `ToolTip()` with a custom dark-themed popup (rounded corners, Win11 DWM styling). Switchable back to the native tooltip per-mode via settings.
+
+### Settings GUI & Configurable Hotkeys
+All hotkeys and auto-preview options are configurable through a built-in settings window (tray menu → Settings), saved to `config.ini`. No more editing the script to change a shortcut.
+
+### Delete Note
+Added a **Delete Note** button in the editor with a confirmation dialog.
+
+### Tray Menu
+Custom tray menu with quick access to Settings, the Notes folder, script editing, reload, and exit.
